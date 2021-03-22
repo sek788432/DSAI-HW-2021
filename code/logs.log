@@ -1,5 +1,0 @@
-2021-03-22 17:48:40,631; INFO; NP.utils; set_auto_seasonalities; Disabling yearly seasonality. Run NeuralProphet with yearly_seasonality=True to override this.
-2021-03-22 17:48:40,632; INFO; NP.utils; set_auto_seasonalities; Disabling daily seasonality. Run NeuralProphet with daily_seasonality=True to override this.
-2021-03-22 17:48:40,633; INFO; NP.config; set_auto_batch_epoch; Auto-set batch_size to 16
-2021-03-22 17:48:41,113; INFO; NP.utils_torch; lr_range_test; lr-range-test results: steep: 3.39E-01, min: 4.94E-01
-2021-03-22 17:48:41,114; INFO; NP.utils_torch; lr_range_test; learning rate range test selected lr: 4.36E-01
