@@ -47,7 +47,7 @@ This will lead us to the next topic. How to choose the validation data.
 We describe the importance of choosing a proper validation dataset on the last chapter. In this Chapter, we are going to show you how we choose it. Why we choose it.
 In this homework, our goal is to predict the reserve power on March 23-29. We think the reserve power might have something do with the season so we set up a range of time that we can consider as our validation data. Since March 23 is Tuesday, we look back the history, and choosing the data between 4th week of February to 1st week of April in every year. We have totally 16 validation datasets.
 
-![validationset](./image/validation/validation_sets.png)
+![validationset](./image/validation/validation_sets.PNG)
 
 After we set up the range, we extract the data and divide them into weeks.
 We plot out these data and we found out that these data have some sort of patterns.
@@ -63,7 +63,7 @@ When there is a pattern, there are always something that can predict.
 # Model Experiment
 We expect our output like this
 
-![arima_result](./image/output.png)
+![arima_result](./image/output.PNG)
 
 ## 1. ARIMA
 After we decide our validation dataset, it is time to apply it to different models.
@@ -71,7 +71,7 @@ The idea is to try as many models as we can and choose the best model for this c
 
 We first choose the ARIMA model as our model base line. It is the most common use model when dealing with time series forecasting data. We run the test on each validation data with all the data before validation date as training dataset. On each experiment we use RMSE as our simple scoring benchmark.
 
-![arima_result](./image/model/ARIMA_valid.png)
+![arima_result](./image/model/ARIMA_valid.PNG)
 
 As you can see, this might not be the perfect model for this dataset.
 Although the model did not act as we expected, it still has its own reference value.
