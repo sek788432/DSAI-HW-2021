@@ -13,6 +13,11 @@ In this report we are going to cover:
 ---
 
 # Execution
+## Install Package
+```sh
+pip install -r requirements.txt
+```
+## Run Code
 ```sh
 python main.py --training training_data.csv --output submission.csv
 ```
